@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //Welcome Back To My YouTube Channel again for another Tutorial Series
         var button = findViewById<Button>(R.id.button)
         button.setOnClickListener{
             val intent = Intent(this, Page2::class.java)

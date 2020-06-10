@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,13 +12,20 @@
         android:layout_height="wrap_content"
         android:text="Hello World this is Page 1!"
         android:textSize="15dp"
+        android:visibility="gone"
         android:layout_gravity="center" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/img_logo_admin_grabs_media"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_green_dark"
+        android:background="@drawable/btn_primary"
+        android:textColor="#ffffff"
         android:layout_gravity="bottom"
         android:text="Next Button"
         android:layout_margin="12dp"/>
